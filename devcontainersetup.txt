@@ -2,3 +2,9 @@ ssh-keygen -t rsa -b 4096 -C justinfrauenhofer@gmail.com
 ssh-add ~/.ssh/id_rsa
 gh auth login -h github.com -s admin:public_key
 gh ssh-key add ~/.ssh/id_rsa.pub --title CSE220
+
+
+docker exect these suckers into the container 
+
+sudo chmod 644 /cse220_traces/500.perlbench_r/traces_simp/12569/raw/modules.log
+sudo chmod 755 /cse220_traces/500.perlbench_r/traces_simp/12569/raw
