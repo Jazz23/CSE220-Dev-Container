@@ -1,0 +1,4 @@
+ssh-keygen -t rsa -b 4096 -C justinfrauenhofer@gmail.com
+ssh-add ~/.ssh/id_rsa
+gh auth login -h github.com -s admin:public_key
+gh ssh-key add ~/.ssh/id_rsa.pub --title CSE220
