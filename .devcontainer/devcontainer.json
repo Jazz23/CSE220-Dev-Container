@@ -1,0 +1,4 @@
+{
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+	"postCreateCommand": "./run.sh -o /home/$USER/cse220_home -b 2 && docker exec cse220_$USER chmod -R a+rX /cse220_traces/ && echo DO NOT run all workloads at once (remove all but 1 or a few workloads from the array in lab1.json), it will crash the codespac."
+}
